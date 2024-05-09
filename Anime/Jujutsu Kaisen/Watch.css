@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #151515;
+    min-height: calc(85.56vh - 50px);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0) 
+        ,
+        rgba(0,0, 0, 1)
+      ),
+      url("../../img/Prewiew.jpg");
+    
+}
+.Video{
+   margin-left: 400px; 
+   display: flex; 
+   margin-top: 150px;
+   border-radius: 10px;
+}
+.hidden{
+    visibility: hidden;
+}
+.next_Video{
+    border: none;
+    background-color: rgb(12, 195, 9);
+    padding: 16px 30px;
+    font-size: larger;
+    font-family: monospace;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 740px ;
+
+    
+}
+.last_video{
+    border: none;
+    background-color: rgb(12, 195, 9);
+    padding: 16px 30px;
+    font-size: larger;
+    font-family: monospace;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 250px ;
+
+    
+}
